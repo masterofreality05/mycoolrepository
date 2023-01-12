@@ -18,7 +18,7 @@ function countDown(time){
      //in each interval lets decrement our time argument passed by 1
       time--;
       if(time === 0){
-        randomGame()
+        
         //if time at any interval is equal to zero print done 
           clearInterval(timer);
 
@@ -56,6 +56,8 @@ function randomGame(){
     // our interval loop stops when .75 is reached
   } ,10) 
 }
+
+setTimeout(randomGame(),5000)
 
 
   
