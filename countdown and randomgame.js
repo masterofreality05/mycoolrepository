@@ -18,10 +18,11 @@ function countDown(time){
      //in each interval lets decrement our time argument passed by 1
       time--;
       if(time === 0){
+        randomGame()
         //if time at any interval is equal to zero print done 
           clearInterval(timer);
 
-          randomGame()
+          
           //after we are done we exit and clear the interval
           //we can identify the interval by calling the variable ot which its ID is stored
           console.log("Done!")
