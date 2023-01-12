@@ -20,6 +20,8 @@ function countDown(time){
       if(time === 0){
         //if time at any interval is equal to zero print done 
           clearInterval(timer);
+
+          randomGame()
           //after we are done we exit and clear the interval
           //we can identify the interval by calling the variable ot which its ID is stored
           console.log("Done!")
@@ -54,7 +56,7 @@ function randomGame(){
   } ,10) 
 }
 
-randomGame()
+
   
 
 
