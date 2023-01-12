@@ -47,7 +47,7 @@ function randomGame(){
       //console.log("too big") works perfect
     clearInterval(shuffle);
     //once we hit a number over .75 we end the interval loop
-    console.log(counter)}
+    console.log("random game took " + counter + "atempts to reach over 0.75")}
     //logging our incremented counter to the console gives us the attempts needed to reach a random number before .75
     //our counter is being incremented corrctly
     // our interval loop stops when .75 is reached
